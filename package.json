@@ -1,0 +1,30 @@
+{
+  "name": "tarea_node2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js",
+  "prisma": "prisma"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MArit67/tarea_node2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MArit67/tarea_node2/issues"
+  },
+  "homepage": "https://github.com/MArit67/tarea_node2#readme",
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "express": "^5.1.0",
+    "prisma": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
